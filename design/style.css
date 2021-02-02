@@ -9,14 +9,110 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  font-family: "Bai Jamjuree", sans-serif;
 }
 
 header {
   width: 100vw;
-  height: 300px;
+  height: 200px;
   /* height: 100vh; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-image: url("bg-header-desktop.png");
   background-repeat: no-repeat;
+}
+
+.hero {
+  /* border: 1px solid red; */
+  width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.hero img {
+  height: 8rem;
+  margin-bottom: 20px;
+  box-shadow: 1px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  font-size: 1.6rem;
+  margin: 20px 0;
+}
+
+.btn-IOS {
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  height: 40px;
+  width: 160px;
+  border: none;
+  border-bottom: 3px solid hsl(171, 68%, 39%);
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-IOS:hover {
+  background-color: hsl(171, 65%, 48%);
+}
+
+.btn-MAC {
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  height: 40px;
+  width: 160px;
+  border: none;
+  border-bottom: 3px solid hsl(233, 79%, 64%);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn-MAC:hover {
+  background-color: hsl(233, 100%, 73%);
+}
+
+main {
+  margin-top: 250px;
+}
+
+.details {
+  width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.details-computer {
+  border: 1px solid blue;
+  display: flex;
+  margin-top: 65px;
+  justify-content: center;
+}
+
+.computer img {
+  border: 1px solid red;
+  width: 560px;
+  height: 400px;
+}
+
+.details-computer div {
+  border: 1px solid green;
+  width: 30rem;
+  margin-left: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details-computer div p {
+  font-size: 1.4rem;
 }
