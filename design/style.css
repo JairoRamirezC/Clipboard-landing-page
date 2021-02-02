@@ -14,8 +14,8 @@ body {
 
 header {
   width: 100vw;
-  /* height: 300px; */
-  height: 100vh;
+  height: 300px;
+  /* height: 100vh; */
   border: 1px solid red;
   background-image: url("bg-header-desktop.png");
   background-repeat: no-repeat;
