@@ -54,7 +54,7 @@ p {
   color: white;
   background-color: hsl(171, 66%, 44%);
   height: 40px;
-  width: 160px;
+  width: 17rem;
   border: none;
   border-bottom: 3px solid hsl(171, 68%, 39%);
   border-radius: 50px;
@@ -70,7 +70,7 @@ p {
   color: white;
   background-color: hsl(233, 100%, 69%);
   height: 40px;
-  width: 160px;
+  width: 17rem;
   border: none;
   border-bottom: 3px solid hsl(233, 79%, 64%);
   border-radius: 50px;
@@ -92,20 +92,16 @@ main {
 }
 
 .details-computer {
-  border: 1px solid blue;
   display: flex;
   margin-top: 65px;
-  justify-content: center;
 }
 
 .computer img {
-  border: 1px solid red;
-  width: 560px;
-  height: 400px;
+  width: 63rem;
+  height: 47rem;
 }
 
 .details-computer div {
-  border: 1px solid green;
   width: 30rem;
   margin-left: 90px;
   display: flex;
@@ -115,4 +111,60 @@ main {
 
 .details-computer div p {
   font-size: 1.4rem;
+}
+
+.details-devices {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.devices img {
+  width: 75rem;
+  height: 47rem;
+  margin-top: 60px;
+}
+
+.details-only {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.details-workflow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.details-workflow__section {
+  width: 360px;
+  text-align: center;
+}
+
+.icon {
+  height: 28px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.logos * {
+  height: 40px;
+  margin: 0 -30px;
+}
+
+.details-clipboard {
+  width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 120px;
+}
+
+footer {
+  border: 1px solid red;
+  background-color: #f5f6f8;
+  display: flex;
 }
